@@ -57,35 +57,70 @@ session_start();
                           <a href="download.php?d=<?php echo $_SESSION['semester'];?>01"><img src="assets/img/engg.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>01</h4>
-						<p>Description goes here</p>
+						<p><?php if($_SESSION['semester']==1){echo "Engineering Chemistry";}
+							if($_SESSION['semester']==2){echo "Engineerig Physics";}
+								if($_SESSION['semester']==3){echo "Mathematics - 2";}
+								if($_SESSION['semester']==4){echo "Mathematics - 3";}
+								if($_SESSION['semester']==5){echo "Data Communication";}
+								if($_SESSION['semester']==6){echo "Micro Processor and Interfacing";}
+								if($_SESSION['semester']==7){echo "Compiler Design";}
+								if($_SESSION['semester']==8){echo "Data Communication";}?></p>
 					</div><!-- END COLUMN 3 -->
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="200">
 						<div class="service-icon">
 							<a href="download.php?d=<?php echo $_SESSION['semester'];?>02"><img src="assets/img/medi.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>02</h4>
-						<p>Description goes here</p>
+						<p><?php if($_SESSION['semester']==1){echo "Mathematics-1";}
+							if($_SESSION['semester']==2){echo "EEE's";}
+								if($_SESSION['semester']==3){echo "Discrete Structure";}
+								if($_SESSION['semester']==4){echo "Computer System Organisation";}
+								if($_SESSION['semester']==5){echo "Operating System";}
+								if($_SESSION['semester']==6){echo "PPL";}
+								if($_SESSION['semester']==7){echo "Distributed Systems";}
+								if($_SESSION['semester']==8){echo "Data Communication";}?></p>
 					</div><!-- END COLUMN 3 -->
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="400">
 						<div class="service-icon">
 							<a href="download.php?d=<?php echo $_SESSION['semester'];?>03"><img src="assets/img/comm.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>03</h4>
-						<p>Description goes here</p>
+						<p><?php if($_SESSION['semester']==1){echo "Communication Skill";}
+							if($_SESSION['semester']==2){echo "Basic Mechanical engg";}
+								if($_SESSION['semester']==3){echo "Digital Ciruit And System";}
+								if($_SESSION['semester']==4){echo "OOT";}
+								if($_SESSION['semester']==5){echo "DBMS";}
+								if($_SESSION['semester']==6){echo "Software Engineering & Project managements";}
+								if($_SESSION['semester']==7){echo "Information Storage and Management ";}
+								if($_SESSION['semester']==8){echo "Data Communication";}?></p>
 					</div><!-- END COLUMN 3 -->
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="600">
 						<div class="service-icon">
 							<a href="download.php?d=<?php echo $_SESSION['semester'];?>04"><img src="assets/img/oth.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>04</h4>
-						<p>Description goes here</p>
+						<p><?php if($_SESSION['semester']==1){echo "Basic Electrical and electronic Engineerig";}
+							if($_SESSION['semester']==2){echo "basic civil Engg and Mechanics";}
+								if($_SESSION['semester']==3){echo "Electronic Device And Circuit";}
+								if($_SESSION['semester']==4){echo "ADA";}
+								if($_SESSION['semester']==5){echo "Computer Graphics And Multimedia";}
+								if($_SESSION['semester']==6){echo " Computer Networking";}
+								if($_SESSION['semester']==7){echo "Elective-I";}
+								if($_SESSION['semester']==8){echo "Data Communication";}?></p>
 					</div><!-- END COLUMN 3 -->
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp">
 						<div class="service-icon"> 
                           <a href="download.php?d=<?php echo $_SESSION['semester'];?>05"><img src="assets/img/engg.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>05</h4>
-						<p>Description goes here</p>
+						<p><?php if($_SESSION['semester']==1){echo "Engineerig Drawing";}
+							if($_SESSION['semester']==2){echo "Basic Computer Engg";}
+								if($_SESSION['semester']==3){echo "Data Structures";}
+								if($_SESSION['semester']==4){echo "ADC";}
+								if($_SESSION['semester']==5){echo "Theory of Computation";}
+								if($_SESSION['semester']==6){echo "Advance Computer Architecture(ACA)";}
+								if($_SESSION['semester']==7){echo "Data Communication";}
+								if($_SESSION['semester']==8){echo "Data Communication";}?></p>
 					</div><!-- END COLUMN 3 -->
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp">
 						<div class="service-icon"> 
