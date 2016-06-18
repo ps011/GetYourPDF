@@ -57,7 +57,9 @@ session_start();
                           <a href="download.php?d=<?php echo $_SESSION['semester'];?>01"><img src="assets/img/engg.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>01</h4>
-						<p><?php if($_SESSION['semester']==1){echo "Engineering Chemistry";}
+						<p><?php if($_SESSION['semester']==1){
+							
+							echo "Engineering Chemistry";}
 							if($_SESSION['semester']==2){echo "Engineerig Physics";}
 								if($_SESSION['semester']==3){echo "Mathematics - 2";}
 								if($_SESSION['semester']==4){echo "Mathematics - 3";}
