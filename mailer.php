@@ -1,43 +1,35 @@
 <?php
+require("class.PHPMailer.php");
 
- // require_once('class.phpmailer.php');
- //
- //    $mail = new PHPMailer();
- //    $mail->CharSet =  "utf-8";
- //    $mail->IsSMTP();
- //    $mail->SMTPAuth = true;
- //    $mail->Username = "prasheelsoni11@gmail.com";
- //    $mail->Password = "37Goldy37!";
- //    $mail->SMTPSecure = "ssl";
- //    $mail->Host = "smtp.gmail.com";
- //    $mail->Port = "465";
- //
- //    $mail->setFrom('prasheelsoni11@gmail.com', ' Prasheel');
- //    $mail->AddAddress('prasheelsoni11@mail.com', ' Goldy');
- //
- //    $mail->Subject  =  'using PHPMailer';
- //    $mail->IsHTML(true);
- //    $mail->Body    = 'Hi there ,
- //                        <br />
- //                        this mail was sent using PHPMailer...
- //                        <br />
- //                        cheers... :)';
- //
- //     if($mail->Send())
- //     {
- //        echo "Message was Successfully Send :)";
- //     }
- //     else
- //     {
- //        echo "Mail Error - >".$mail->ErrorInfo;
- //     }
- echo "Prasheel";
- try{
-mail('prasheelsoni11@gmail.com','Test','Body');
-}
-catch(Exception $e)
+$mail = new PHPMailer();
+
+$mail->IsSMTP();                                      // set mailer to use SMTP
+$mail->Host = "smtp.gmail.com";
+$mail->SMTPAuth = true;     // turn on SMTP authentication
+$mail->Username = "prasheelsoni11";  // SMTP username
+$mail->Password = "37Goldy37!"; // SMTP password
+
+$mail->From = "from@example.com";
+$mail->FromName = "Mailer";
+$mail->AddAddress("josh@example.net", "Josh Adams");
+$mail->AddAddress("ellen@example.com");                  // name is optional
+$mail->AddReplyTo("info@example.com", "Information");
+
+$mail->WordWrap = 50;                                 // set word wrap to 50 characters
+//$mail->AddAttachment("/var/tmp/file.tar.gz");         // add attachments
+//$mail->AddAttachment("/tmp/image.jpg", "new.jpg");    // optional name
+$mail->IsHTML(true);                                  // set email format to HTML
+
+$mail->Subject = "Here is the subject";
+$mail->Body    = "This is the HTML message body <b>in bold!</b>";
+$mail->AltBody = "This is the body in plain text for non-HTML mail clients";
+
+if(!$mail->Send())
 {
-  echo $e->message;
+   echo "Message could not be sent. <p>";
+   echo "Mailer Error: " . $mail->ErrorInfo;
+   exit;
 }
 
+echo "Message has been sent";
 ?>
