@@ -31,7 +31,13 @@
  //     {
  //        echo "Mail Error - >".$mail->ErrorInfo;
  //     }
+ echo "Prasheel";
+ try{
 mail('prasheelsoni11@gmail.com','Test','Body');
-
+}
+catch(Exception $e)
+{
+  echo $e->message;
+}
 
 ?>
