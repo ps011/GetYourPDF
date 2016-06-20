@@ -15,7 +15,7 @@ session_start();
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- FancyBox -->
 	<link href="assets/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!--[if lt IE 9]>
@@ -23,7 +23,7 @@ session_start();
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body> 
+  <body>
           <div id="navbar-top">
       <nav class="navbar navbar-default navbar-static" role="navigation">
         <div class="container">
@@ -36,24 +36,24 @@ session_start();
             </button>
             <a class="navbar-brand nav-external" href="#home"><strong>GET YOUR PDF</strong></a>
           </div>
-		 
-          
+
+
         </div>
       </nav>
     </div>
-    
-          	
+
+
       </div>
     </section>
 
     <section id="services" class="page space">
-      <div class="container text-center"> 
+      <div class="container text-center">
           <div class="heading">
             <h2 style="margin-top:-15px;">Choose Your Subject</h2>
            </div>
          <div class="row services-list">
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp">
-						<div class="service-icon"> 
+						<div class="service-icon">
                           <a href="download.php?d=<?php echo $_SESSION['semester'];?>01"><img src="assets/img/engg.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>01</h4>
@@ -109,7 +109,7 @@ session_start();
 								if($_SESSION['semester']==8){echo "Data Communication";}?></p>
 					</div><!-- END COLUMN 3 -->
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp">
-						<div class="service-icon"> 
+						<div class="service-icon">
                           <a href="download.php?d=<?php echo $_SESSION['semester'];?>05"><img src="assets/img/engg.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>05</h4>
@@ -123,34 +123,34 @@ session_start();
 								if($_SESSION['semester']==8){echo "Data Communication";}?></p>
 					</div><!-- END COLUMN 3 -->
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp">
-						<div class="service-icon"> 
+						<div class="service-icon">
                           <a href="download.php?d=<?php echo $_SESSION['semester'];?>06"><img src="assets/img/engg.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white"><?php echo $_SESSION['semester'];?>06</h4>
 						<p>Description goes here</p>
 					</div><!-- END COLUMN 3 -->
 					<!--<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp">
-						<div class="service-icon"> 
+						<div class="service-icon">
                           <a href="engineering.html"><img src="assets/img/engg.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white">Semester 7</h4>
 						<p>Description goes here</p>
-					</div><!-- END COLUMN 3 
+					</div><!-- END COLUMN 3
 					<div class="col-sm-6 col-md-3 text-center service animated fadeInUp visible" data-animation="fadeInUp">
-						<div class="service-icon"> 
+						<div class="service-icon">
                           <a href="engineering.html"><img src="assets/img/engg.jpg" alt=""/> </a>
 						</div>
 						<h4 class="color-white">Semester 8</h4>
 						<p>Description goes here</p>
 					</div><!-- END COLUMN 3 -->
-				</div>       
+				</div>
       </div>
     </section>
-   
-    
-   
+
+
+
                   </li>
-                      
+
       </div>
       <div class="twitter text-center">
         <div class="animated hiding" data-animation="fadeIn">
@@ -158,9 +158,9 @@ session_start();
           <div id="feed"></div>
         </div>
       </div>
-    </section> 
-   
-    
+    </section>
+
+
         </div>
       </div>
     </footer>
@@ -169,14 +169,14 @@ session_start();
     <script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/jquery.cslider.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
-	<script src="assets/js/jquery.fancybox.pack.js"></script>  
-	<script src="assets/js/jquery.fancybox-media.js"></script>  
+	<script src="assets/js/jquery.fancybox.pack.js"></script>
+	<script src="assets/js/jquery.fancybox-media.js"></script>
     <script src="assets/js/imagesloaded.min.js"></script>
     <script src="assets/js/jquery.scrollTo.min.js"></script>
     <script src="assets/js/jquery.nav.min.js"></script>
     <script src="assets/js/jquery.appear.min.js"></script>
     <script src="assets/js/twitterFetcher.min.js"></script>
-    <script src="assets/js/script.js"></script> 
+    <script src="assets/js/script.js"></script>
 	<script type="text/javascript">
     $(document).ready(function () {
 		$('#da-slider').cslider({
