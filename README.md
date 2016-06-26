@@ -1,4 +1,25 @@
 # GetYourPDF
+
+GetYourPdf is a Platform which helps you to get an ebook of every Domain on a single click, it saves students & others time in finding their choice of book. A responsive website which makes your search easier.
+
+## Installation
+
+Download and install Lamp, Mamp, Wamp according to your Operating System.
+Clone the repository in www folder.
+Start the server.
+Hit the URL.
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+
+## Credits
+
+Prasheel Soni - http://github.com/ps011
+Puneet Matta - http://github.com/puneet1995
 ##License
 MIT License
 
